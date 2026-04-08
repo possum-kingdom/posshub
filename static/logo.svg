@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Body/Head shape -->
+  <ellipse cx="60" cy="62" rx="38" ry="36" fill="#c0caf5"/>
+  <!-- Inner face -->
+  <ellipse cx="60" cy="66" rx="28" ry="26" fill="#e8e8f0"/>
+  <!-- Left ear -->
+  <ellipse cx="32" cy="32" rx="14" ry="16" fill="#c0caf5" transform="rotate(-15 32 32)"/>
+  <ellipse cx="32" cy="32" rx="9" ry="11" fill="#f7768e" transform="rotate(-15 32 32)"/>
+  <!-- Right ear -->
+  <ellipse cx="88" cy="32" rx="14" ry="16" fill="#c0caf5" transform="rotate(15 88 32)"/>
+  <ellipse cx="88" cy="32" rx="9" ry="11" fill="#f7768e" transform="rotate(15 88 32)"/>
+  <!-- Left eye -->
+  <ellipse cx="46" cy="58" rx="7" ry="8" fill="#1a1b26"/>
+  <ellipse cx="48" cy="56" rx="2.5" ry="3" fill="#fff"/>
+  <!-- Right eye -->
+  <ellipse cx="74" cy="58" rx="7" ry="8" fill="#1a1b26"/>
+  <ellipse cx="76" cy="56" rx="2.5" ry="3" fill="#fff"/>
+  <!-- Dark eye patches (raccoon-like mask) -->
+  <ellipse cx="46" cy="58" rx="12" ry="11" fill="#565f89" opacity="0.35"/>
+  <ellipse cx="74" cy="58" rx="12" ry="11" fill="#565f89" opacity="0.35"/>
+  <!-- Re-draw eyes on top of patches -->
+  <ellipse cx="46" cy="58" rx="6" ry="7" fill="#1a1b26"/>
+  <ellipse cx="48" cy="56" rx="2" ry="2.5" fill="#fff"/>
+  <ellipse cx="74" cy="58" rx="6" ry="7" fill="#1a1b26"/>
+  <ellipse cx="76" cy="56" rx="2" ry="2.5" fill="#fff"/>
+  <!-- Nose -->
+  <ellipse cx="60" cy="74" rx="6" ry="4.5" fill="#f7768e"/>
+  <ellipse cx="60" cy="73" rx="3" ry="1.5" fill="#ff9eb0" opacity="0.6"/>
+  <!-- Mouth -->
+  <path d="M54 79 Q57 83 60 79 Q63 83 66 79" stroke="#565f89" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Whiskers left -->
+  <line x1="20" y1="68" x2="42" y2="72" stroke="#9aa5ce" stroke-width="1" stroke-linecap="round"/>
+  <line x1="18" y1="74" x2="42" y2="75" stroke="#9aa5ce" stroke-width="1" stroke-linecap="round"/>
+  <line x1="20" y1="80" x2="42" y2="78" stroke="#9aa5ce" stroke-width="1" stroke-linecap="round"/>
+  <!-- Whiskers right -->
+  <line x1="100" y1="68" x2="78" y2="72" stroke="#9aa5ce" stroke-width="1" stroke-linecap="round"/>
+  <line x1="102" y1="74" x2="78" y2="75" stroke="#9aa5ce" stroke-width="1" stroke-linecap="round"/>
+  <line x1="100" y1="80" x2="78" y2="78" stroke="#9aa5ce" stroke-width="1" stroke-linecap="round"/>
+  <!-- Dark stripe on forehead -->
+  <path d="M48 38 Q60 28 72 38" stroke="#565f89" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.4"/>
+</svg>

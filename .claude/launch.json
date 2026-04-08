@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "posshub",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["posshub.py"],
+      "port": 3000
+    }
+  ]
+}
