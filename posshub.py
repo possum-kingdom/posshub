@@ -327,6 +327,7 @@ def _layout(title, body, active=""):
   <div class="topnav-links">
     <a href="/"{"class='active'" if active == "dens" else ""}>Dens</a>
     <a href="/new">Dig New Den</a>
+    <a href="https://www.paypal.com/donate/?hosted_button_id=POSSHUB" class="btn-donate" target="_blank">Donate</a>
   </div>
 </nav>
 <div class="container">
@@ -354,6 +355,10 @@ def page_home(alert=""):
   <img class="hero-logo" src="/static/logo.svg" alt="PossHub">
   <h1>Welcome to PossHub</h1>
   <p>"Where code plays dead until it&rsquo;s ready"</p>
+  <div class="hero-donate">
+    <a class="btn-donate-lg" href="https://www.paypal.com/donate/?hosted_button_id=POSSHUB" target="_blank">Donate via PayPal</a>
+    <p>Help keep the possums fed and the servers running.</p>
+  </div>
 </div>
 <div class="empty-state">
   <h2>Your den is empty!</h2>
@@ -384,6 +389,12 @@ def page_home(alert=""):
 </div>
 <div class="repo-list">
 {cards}
+</div>
+<div style="text-align:center;margin-top:32px;">
+  <div class="hero-donate">
+    <a class="btn-donate-lg" href="https://www.paypal.com/donate/?hosted_button_id=POSSHUB" target="_blank">Donate via PayPal</a>
+    <p>Help keep the possums fed and the servers running.</p>
+  </div>
 </div>"""
     return _layout("Home", body, "dens")
 
